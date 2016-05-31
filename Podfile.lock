@@ -1,0 +1,20 @@
+PODS:
+  - RxCocoa (2.5.0):
+    - RxSwift (~> 2.5)
+  - RxSwift (2.5.0)
+  - RxTests (2.5.0):
+    - RxSwift (~> 2.5)
+
+DEPENDENCIES:
+  - RxCocoa (~> 2.5.0)
+  - RxSwift (~> 2.5.0)
+  - RxTests (~> 2.5.0)
+
+SPEC CHECKSUMS:
+  RxCocoa: e1b1562e57a554d0fb2aabf9d71b637f177257c7
+  RxSwift: 402b41a50e922a0368fc14cb3bc9f4427920e8ae
+  RxTests: 1b13bea0a138552b52aeead549ef08d578bcda9e
+
+PODFILE CHECKSUM: 65aea83da9ac97d0785204be5334c92157827827
+
+COCOAPODS: 1.0.0

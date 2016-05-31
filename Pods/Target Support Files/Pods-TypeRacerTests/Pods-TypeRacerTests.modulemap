@@ -1,0 +1,6 @@
+framework module Pods_TypeRacerTests {
+  umbrella header "Pods-TypeRacerTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

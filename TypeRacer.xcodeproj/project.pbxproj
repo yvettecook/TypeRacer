@@ -1,0 +1,745 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		176CB9C42E31C2FD792C8501 /* Pods_TypeRacerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FD4D5BC5E9BC0BE2BE494C8 /* Pods_TypeRacerTests.framework */; };
+		1A1E6E591CFB3485000479CF /* RaceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1E6E581CFB3485000479CF /* RaceViewModel.swift */; };
+		1A1E6E5B1CFB36F8000479CF /* TextSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1E6E5A1CFB36F8000479CF /* TextSample.swift */; };
+		1A1E6E5D1CFB68FF000479CF /* TextSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1E6E5C1CFB68FF000479CF /* TextSampleTests.swift */; };
+		1A1E6E5F1CFB6ED1000479CF /* RaceViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1E6E5E1CFB6ED1000479CF /* RaceViewModelTests.swift */; };
+		1A1E6E611CFD7388000479CF /* TypeRaceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1E6E601CFD7388000479CF /* TypeRaceUITests.swift */; };
+		1A5F12031CF636460024CEF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5F11FD1CF636460024CEF5 /* AppDelegate.swift */; };
+		1A5F12071CF636FC0024CEF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A5F12061CF636FC0024CEF5 /* Assets.xcassets */; };
+		1A5F120A1CF6370F0024CEF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A5F12081CF6370F0024CEF5 /* LaunchScreen.storyboard */; };
+		1A5F120D1CF637E20024CEF5 /* RaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5F120C1CF637E20024CEF5 /* RaceView.swift */; };
+		1A5F120F1CF637EA0024CEF5 /* RaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5F120E1CF637EA0024CEF5 /* RaceViewController.swift */; };
+		1A5F12121CF63C020024CEF5 /* UIView+AutoLayoutExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5F12111CF63C020024CEF5 /* UIView+AutoLayoutExtensions.swift */; };
+		1A5F12141CF6DF240024CEF5 /* CaitlinMoranQuotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5F12131CF6DF240024CEF5 /* CaitlinMoranQuotes.swift */; };
+		8BCE90511BA680CDBD0CE511 /* Pods_TypeRacer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C28EC66EBA59CA5F86F7882 /* Pods_TypeRacer.framework */; };
+		D9D109A253BD8AA7064B9CC7 /* Pods_TypeRacerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E31A52D607891CF0B0DDB631 /* Pods_TypeRacerUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A7BE0171CF5EC0500E379A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A7BDFFA1CF5EC0500E379A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A7BE0011CF5EC0500E379A2;
+			remoteInfo = TypeRacer;
+		};
+		1A7BE0221CF5EC0500E379A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A7BDFFA1CF5EC0500E379A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A7BE0011CF5EC0500E379A2;
+			remoteInfo = TypeRacer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A1E6E581CFB3485000479CF /* RaceViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RaceViewModel.swift; sourceTree = "<group>"; };
+		1A1E6E5A1CFB36F8000479CF /* TextSample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextSample.swift; sourceTree = "<group>"; };
+		1A1E6E5C1CFB68FF000479CF /* TextSampleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextSampleTests.swift; sourceTree = "<group>"; };
+		1A1E6E5E1CFB6ED1000479CF /* RaceViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RaceViewModelTests.swift; sourceTree = "<group>"; };
+		1A1E6E601CFD7388000479CF /* TypeRaceUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypeRaceUITests.swift; sourceTree = "<group>"; };
+		1A5F11FD1CF636460024CEF5 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1A5F12061CF636FC0024CEF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = TypeRacer/Mobile/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		1A5F12091CF6370F0024CEF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = TypeRacer/Mobile/Base.lproj/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
+		1A5F120C1CF637E20024CEF5 /* RaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RaceView.swift; sourceTree = "<group>"; };
+		1A5F120E1CF637EA0024CEF5 /* RaceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RaceViewController.swift; sourceTree = "<group>"; };
+		1A5F12111CF63C020024CEF5 /* UIView+AutoLayoutExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+AutoLayoutExtensions.swift"; sourceTree = "<group>"; };
+		1A5F12131CF6DF240024CEF5 /* CaitlinMoranQuotes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CaitlinMoranQuotes.swift; path = TypeRacer/Mobile/Utilities/CaitlinMoranQuotes.swift; sourceTree = SOURCE_ROOT; };
+		1A7BE0021CF5EC0500E379A2 /* TypeRacer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TypeRacer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A7BE0111CF5EC0500E379A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A7BE0161CF5EC0500E379A2 /* TypeRacerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TypeRacerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A7BE01C1CF5EC0500E379A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A7BE0211CF5EC0500E379A2 /* TypeRacerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TypeRacerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A7BE0271CF5EC0500E379A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		257407F30B59FE4C7B462D22 /* Pods-TypeRacerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TypeRacerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TypeRacerUITests/Pods-TypeRacerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2C28EC66EBA59CA5F86F7882 /* Pods_TypeRacer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TypeRacer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3804076A14399097C8D003B7 /* Pods-TypeRacerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TypeRacerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TypeRacerTests/Pods-TypeRacerTests.release.xcconfig"; sourceTree = "<group>"; };
+		41E6C3FC25B69F2C1E55501C /* Pods-TypeRacer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TypeRacer.release.xcconfig"; path = "Pods/Target Support Files/Pods-TypeRacer/Pods-TypeRacer.release.xcconfig"; sourceTree = "<group>"; };
+		50BBF32A937768DF3052A49D /* Pods-TypeRacerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TypeRacerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TypeRacerTests/Pods-TypeRacerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6480E787723AB50DF7A74F23 /* Pods-TypeRacer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TypeRacer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TypeRacer/Pods-TypeRacer.debug.xcconfig"; sourceTree = "<group>"; };
+		6FD4D5BC5E9BC0BE2BE494C8 /* Pods_TypeRacerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TypeRacerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DF5DDCD476C93FB36D315C6 /* Pods-TypeRacerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TypeRacerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TypeRacerUITests/Pods-TypeRacerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E31A52D607891CF0B0DDB631 /* Pods_TypeRacerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TypeRacerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A7BDFFF1CF5EC0500E379A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BCE90511BA680CDBD0CE511 /* Pods_TypeRacer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A7BE0131CF5EC0500E379A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				176CB9C42E31C2FD792C8501 /* Pods_TypeRacerTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A7BE01E1CF5EC0500E379A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9D109A253BD8AA7064B9CC7 /* Pods_TypeRacerUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A5F11FA1CF636460024CEF5 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		1A5F11FC1CF636460024CEF5 /* Mobile */ = {
+			isa = PBXGroup;
+			children = (
+				1A1E6E5A1CFB36F8000479CF /* TextSample.swift */,
+				1A5F12101CF63BE00024CEF5 /* Utilities */,
+				1A5F120B1CF637D80024CEF5 /* Race */,
+				1A5F11FD1CF636460024CEF5 /* AppDelegate.swift */,
+				1A5F11FE1CF636460024CEF5 /* Resources */,
+			);
+			path = Mobile;
+			sourceTree = "<group>";
+		};
+		1A5F11FE1CF636460024CEF5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1A5F12061CF636FC0024CEF5 /* Assets.xcassets */,
+				1A5F12081CF6370F0024CEF5 /* LaunchScreen.storyboard */,
+				1A5F12131CF6DF240024CEF5 /* CaitlinMoranQuotes.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1A5F120B1CF637D80024CEF5 /* Race */ = {
+			isa = PBXGroup;
+			children = (
+				1A5F120C1CF637E20024CEF5 /* RaceView.swift */,
+				1A5F120E1CF637EA0024CEF5 /* RaceViewController.swift */,
+				1A1E6E581CFB3485000479CF /* RaceViewModel.swift */,
+			);
+			path = Race;
+			sourceTree = "<group>";
+		};
+		1A5F12101CF63BE00024CEF5 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				1A5F12111CF63C020024CEF5 /* UIView+AutoLayoutExtensions.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		1A7BDFF91CF5EC0500E379A2 = {
+			isa = PBXGroup;
+			children = (
+				1A7BE0041CF5EC0500E379A2 /* TypeRacer */,
+				1A7BE0191CF5EC0500E379A2 /* TypeRacerTests */,
+				1A7BE0241CF5EC0500E379A2 /* TypeRacerUITests */,
+				1A7BE0031CF5EC0500E379A2 /* Products */,
+				DFEAD231F8CC573C6D9AADC2 /* Pods */,
+				9A438329DA60041C1B164A31 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1A7BE0031CF5EC0500E379A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A7BE0021CF5EC0500E379A2 /* TypeRacer.app */,
+				1A7BE0161CF5EC0500E379A2 /* TypeRacerTests.xctest */,
+				1A7BE0211CF5EC0500E379A2 /* TypeRacerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A7BE0041CF5EC0500E379A2 /* TypeRacer */ = {
+			isa = PBXGroup;
+			children = (
+				1A5F11FA1CF636460024CEF5 /* Core */,
+				1A5F11FC1CF636460024CEF5 /* Mobile */,
+				1A7BE0111CF5EC0500E379A2 /* Info.plist */,
+			);
+			path = TypeRacer;
+			sourceTree = "<group>";
+		};
+		1A7BE0191CF5EC0500E379A2 /* TypeRacerTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A7BE01C1CF5EC0500E379A2 /* Info.plist */,
+				1A1E6E5C1CFB68FF000479CF /* TextSampleTests.swift */,
+				1A1E6E5E1CFB6ED1000479CF /* RaceViewModelTests.swift */,
+			);
+			path = TypeRacerTests;
+			sourceTree = "<group>";
+		};
+		1A7BE0241CF5EC0500E379A2 /* TypeRacerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1A7BE0271CF5EC0500E379A2 /* Info.plist */,
+				1A1E6E601CFD7388000479CF /* TypeRaceUITests.swift */,
+			);
+			path = TypeRacerUITests;
+			sourceTree = "<group>";
+		};
+		9A438329DA60041C1B164A31 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C28EC66EBA59CA5F86F7882 /* Pods_TypeRacer.framework */,
+				6FD4D5BC5E9BC0BE2BE494C8 /* Pods_TypeRacerTests.framework */,
+				E31A52D607891CF0B0DDB631 /* Pods_TypeRacerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFEAD231F8CC573C6D9AADC2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6480E787723AB50DF7A74F23 /* Pods-TypeRacer.debug.xcconfig */,
+				41E6C3FC25B69F2C1E55501C /* Pods-TypeRacer.release.xcconfig */,
+				50BBF32A937768DF3052A49D /* Pods-TypeRacerTests.debug.xcconfig */,
+				3804076A14399097C8D003B7 /* Pods-TypeRacerTests.release.xcconfig */,
+				8DF5DDCD476C93FB36D315C6 /* Pods-TypeRacerUITests.debug.xcconfig */,
+				257407F30B59FE4C7B462D22 /* Pods-TypeRacerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A7BE0011CF5EC0500E379A2 /* TypeRacer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A7BE02A1CF5EC0500E379A2 /* Build configuration list for PBXNativeTarget "TypeRacer" */;
+			buildPhases = (
+				F3F7FA68A0E158A29E03D071 /* 📦 Check Pods Manifest.lock */,
+				1A7BDFFE1CF5EC0500E379A2 /* Sources */,
+				1A7BDFFF1CF5EC0500E379A2 /* Frameworks */,
+				1A7BE0001CF5EC0500E379A2 /* Resources */,
+				EE48BE06E7757AF933D941C6 /* 📦 Embed Pods Frameworks */,
+				F87A7A1A2F499A7C882888B4 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TypeRacer;
+			productName = TypeRacer;
+			productReference = 1A7BE0021CF5EC0500E379A2 /* TypeRacer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A7BE0151CF5EC0500E379A2 /* TypeRacerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A7BE02D1CF5EC0500E379A2 /* Build configuration list for PBXNativeTarget "TypeRacerTests" */;
+			buildPhases = (
+				75E5D7E91F2BDA72C1040104 /* 📦 Check Pods Manifest.lock */,
+				1A7BE0121CF5EC0500E379A2 /* Sources */,
+				1A7BE0131CF5EC0500E379A2 /* Frameworks */,
+				1A7BE0141CF5EC0500E379A2 /* Resources */,
+				BD9AE1869A1D31A8E14AADD2 /* 📦 Embed Pods Frameworks */,
+				CE6F9BA0D9D986069B62A411 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A7BE0181CF5EC0500E379A2 /* PBXTargetDependency */,
+			);
+			name = TypeRacerTests;
+			productName = TypeRacerTests;
+			productReference = 1A7BE0161CF5EC0500E379A2 /* TypeRacerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1A7BE0201CF5EC0500E379A2 /* TypeRacerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A7BE0301CF5EC0500E379A2 /* Build configuration list for PBXNativeTarget "TypeRacerUITests" */;
+			buildPhases = (
+				F61CC77E27B3F1E812964C92 /* 📦 Check Pods Manifest.lock */,
+				1A7BE01D1CF5EC0500E379A2 /* Sources */,
+				1A7BE01E1CF5EC0500E379A2 /* Frameworks */,
+				1A7BE01F1CF5EC0500E379A2 /* Resources */,
+				D03B2FAC52053D1A4ED42304 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A7BE0231CF5EC0500E379A2 /* PBXTargetDependency */,
+			);
+			name = TypeRacerUITests;
+			productName = TypeRacerUITests;
+			productReference = 1A7BE0211CF5EC0500E379A2 /* TypeRacerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A7BDFFA1CF5EC0500E379A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Yvette;
+				TargetAttributes = {
+					1A7BE0011CF5EC0500E379A2 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					1A7BE0151CF5EC0500E379A2 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 1A7BE0011CF5EC0500E379A2;
+					};
+					1A7BE0201CF5EC0500E379A2 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 1A7BE0011CF5EC0500E379A2;
+					};
+				};
+			};
+			buildConfigurationList = 1A7BDFFD1CF5EC0500E379A2 /* Build configuration list for PBXProject "TypeRacer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A7BDFF91CF5EC0500E379A2;
+			productRefGroup = 1A7BE0031CF5EC0500E379A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A7BE0011CF5EC0500E379A2 /* TypeRacer */,
+				1A7BE0151CF5EC0500E379A2 /* TypeRacerTests */,
+				1A7BE0201CF5EC0500E379A2 /* TypeRacerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A7BE0001CF5EC0500E379A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A5F12071CF636FC0024CEF5 /* Assets.xcassets in Resources */,
+				1A5F120A1CF6370F0024CEF5 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A7BE0141CF5EC0500E379A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A7BE01F1CF5EC0500E379A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		75E5D7E91F2BDA72C1040104 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BD9AE1869A1D31A8E14AADD2 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TypeRacerTests/Pods-TypeRacerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE6F9BA0D9D986069B62A411 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TypeRacerTests/Pods-TypeRacerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D03B2FAC52053D1A4ED42304 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TypeRacerUITests/Pods-TypeRacerUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE48BE06E7757AF933D941C6 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TypeRacer/Pods-TypeRacer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3F7FA68A0E158A29E03D071 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F61CC77E27B3F1E812964C92 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F87A7A1A2F499A7C882888B4 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TypeRacer/Pods-TypeRacer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A7BDFFE1CF5EC0500E379A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A5F12141CF6DF240024CEF5 /* CaitlinMoranQuotes.swift in Sources */,
+				1A5F12031CF636460024CEF5 /* AppDelegate.swift in Sources */,
+				1A5F12121CF63C020024CEF5 /* UIView+AutoLayoutExtensions.swift in Sources */,
+				1A5F120D1CF637E20024CEF5 /* RaceView.swift in Sources */,
+				1A5F120F1CF637EA0024CEF5 /* RaceViewController.swift in Sources */,
+				1A1E6E591CFB3485000479CF /* RaceViewModel.swift in Sources */,
+				1A1E6E5B1CFB36F8000479CF /* TextSample.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A7BE0121CF5EC0500E379A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A1E6E5D1CFB68FF000479CF /* TextSampleTests.swift in Sources */,
+				1A1E6E5F1CFB6ED1000479CF /* RaceViewModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A7BE01D1CF5EC0500E379A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A1E6E611CFD7388000479CF /* TypeRaceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A7BE0181CF5EC0500E379A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A7BE0011CF5EC0500E379A2 /* TypeRacer */;
+			targetProxy = 1A7BE0171CF5EC0500E379A2 /* PBXContainerItemProxy */;
+		};
+		1A7BE0231CF5EC0500E379A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A7BE0011CF5EC0500E379A2 /* TypeRacer */;
+			targetProxy = 1A7BE0221CF5EC0500E379A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1A5F12081CF6370F0024CEF5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A5F12091CF6370F0024CEF5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A7BE0281CF5EC0500E379A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A7BE0291CF5EC0500E379A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A7BE02B1CF5EC0500E379A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6480E787723AB50DF7A74F23 /* Pods-TypeRacer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TypeRacer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.novoda.TypeRacer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1A7BE02C1CF5EC0500E379A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41E6C3FC25B69F2C1E55501C /* Pods-TypeRacer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TypeRacer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.novoda.TypeRacer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1A7BE02E1CF5EC0500E379A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50BBF32A937768DF3052A49D /* Pods-TypeRacerTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = TypeRacerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.novoda.TypeRacerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TypeRacer.app/TypeRacer";
+			};
+			name = Debug;
+		};
+		1A7BE02F1CF5EC0500E379A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3804076A14399097C8D003B7 /* Pods-TypeRacerTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = TypeRacerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.novoda.TypeRacerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TypeRacer.app/TypeRacer";
+			};
+			name = Release;
+		};
+		1A7BE0311CF5EC0500E379A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DF5DDCD476C93FB36D315C6 /* Pods-TypeRacerUITests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = TypeRacerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.novoda.TypeRacerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TEST_TARGET_NAME = TypeRacer;
+			};
+			name = Debug;
+		};
+		1A7BE0321CF5EC0500E379A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 257407F30B59FE4C7B462D22 /* Pods-TypeRacerUITests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = TypeRacerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.novoda.TypeRacerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TypeRacer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A7BDFFD1CF5EC0500E379A2 /* Build configuration list for PBXProject "TypeRacer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A7BE0281CF5EC0500E379A2 /* Debug */,
+				1A7BE0291CF5EC0500E379A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A7BE02A1CF5EC0500E379A2 /* Build configuration list for PBXNativeTarget "TypeRacer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A7BE02B1CF5EC0500E379A2 /* Debug */,
+				1A7BE02C1CF5EC0500E379A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A7BE02D1CF5EC0500E379A2 /* Build configuration list for PBXNativeTarget "TypeRacerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A7BE02E1CF5EC0500E379A2 /* Debug */,
+				1A7BE02F1CF5EC0500E379A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A7BE0301CF5EC0500E379A2 /* Build configuration list for PBXNativeTarget "TypeRacerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A7BE0311CF5EC0500E379A2 /* Debug */,
+				1A7BE0321CF5EC0500E379A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A7BDFFA1CF5EC0500E379A2 /* Project object */;
+}
